@@ -1,0 +1,15 @@
+////////////////////////////////////////////////////
+////////////////// AUTO-GENERATED //////////////////
+////////////////////////////////////////////////////
+
+#![no_std]
+
+elrond_wasm_node::wasm_endpoints! {
+    vesting_locker
+    (
+        lockTokens
+        unlockTokens
+    )
+}
+
+elrond_wasm_node::wasm_empty_callback! {}

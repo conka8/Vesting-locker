@@ -1,0 +1,14 @@
+[package]
+name = "vesting-locker-meta"
+version = "0.0.0"
+edition = "2018"
+publish = false
+authors = [ "you",]
+
+[dev-dependencies]
+
+[dependencies.vesting-locker]
+path = ".."
+
+[dependencies.elrond-wasm-debug]
+version = "0.34.1"
